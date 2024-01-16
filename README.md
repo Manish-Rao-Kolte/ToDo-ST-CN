@@ -10,7 +10,7 @@ I have added FontAwsomeIcon to get the required icons for my project. #This can 
 npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/react-fontaweso commands.
 
-# Deployment
+## Deployment
 
 This project is deployed with netlify. #Hosted link - https://candid-frangollo-8a1beb.netlify.app/
 
