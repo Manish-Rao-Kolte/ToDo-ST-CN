@@ -35,6 +35,7 @@ const App = () => {
           if (toDo.id === res.data.id) {
             toDo.completed = !toDo.completed;
           }
+          return toDo;
         });
         setToDoList([...toDoList]);
       })
