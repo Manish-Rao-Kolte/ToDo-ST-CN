@@ -1,0 +1,47 @@
+
+
+.toDoListContainer{
+    width: 62vw;
+    height: 65vh;
+    /* padding: 3%; */
+    margin: auto;
+    word-spacing: 0.25rem;
+    letter-spacing: 0.05rem;
+    font-size: 1.2vmax;
+    overflow-y: scroll;
+
+    .todoCard{
+        width: 50vw;
+        border: 0.1px solid black;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1%;
+        padding: 0 2%;
+        box-shadow: 0 18px 10px -20px rgb(248, 218, 157) inset, 0 -18px 10px -20px rgb(248, 218, 157) inset;
+        color: black;
+        font-weight: bold;
+        align-items: center;
+        
+        input:hover{
+            cursor: pointer;
+            scale: 1.5;
+        }
+
+        .titleContainer{
+            display: flex;
+            justify-content: flex-start;
+            gap: 1vmax;
+        }
+
+        .deleteIcon{
+            color: rgb(219, 0, 11);
+        }
+
+        .deleteIcon:hover{
+            color: rgb(207, 0, 214);
+            cursor: pointer;
+            scale: 1.2;
+        }
+
+    }
+}
